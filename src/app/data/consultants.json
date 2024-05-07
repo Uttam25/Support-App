@@ -1,0 +1,23 @@
+[
+    {
+      "id": "1",
+      "name": "sumanth",
+      "image": "/images/john.jpg",
+      "experience": 5,
+      "skills": ["React js", "Next js"],
+      "rating": 4.5,
+      "email": "sumanth@gmail.com",
+      "pricing": 300
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "image": "/images/jane.jpg",
+      "experience": 3,
+      "skills": ["Leadership", "Time Management"],
+      "rating": 4.8,
+      "email": "jane@example.com",
+      "pricing": 250
+    }
+  ]
+  
