@@ -116,3 +116,54 @@
         width: 80%; /* Responsive width for the button */
     }
 }
+
+@media (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        padding: 1rem;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .card-top {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .profile-img {
+        width: 80px; /* Slightly smaller to fit smaller screens */
+        height: 80px; /* Maintain aspect ratio */
+    }
+
+    .profile, .details{
+        width: 100%;
+        align-items: flex-start;
+        line-height: 30px;
+        padding: 0.5rem;
+    }
+
+    .booking {
+        width: 100%;
+        align-items: center;
+        padding: 0.5rem;
+    }
+
+    .details {
+        margin: 0; /* Remove additional margin for a cleaner look */
+    }
+
+    .button {
+        width: calc(100% - 2rem); /* Full width minus padding */
+        margin-top: 20px; /* More spacing between elements */
+    }
+
+    .title, .subtitle {
+        text-align: center; /* Center-align text for better mobile presentation */
+    }
+
+    .details a {
+        width: 100%; /* Full width buttons for easier clicking */
+        padding: 10px; /* Larger touch targets */
+    }
+}
