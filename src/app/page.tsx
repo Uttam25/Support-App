@@ -1,6 +1,6 @@
 import React from "react";
 import consultants from "./data/consultants.json";
-import ConsultantCard from "./components/ConsultantCard";
+import ConsultantCard from "../components/ConsultantCard";
 export interface Consultant {
   id: string;
   name: string;
