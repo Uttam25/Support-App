@@ -2,7 +2,6 @@
     {
       "id": "1",
       "name": "sumanth",
-      "mode": ["online","offline"],
       "image": "/images/john.jpg",
       "experience": 5,
       "skills": ["HTML", "CSS", "JavaScript", "React js", "Next js","Testing"],
@@ -13,7 +12,7 @@
     {
       "id": "2",
       "name": "Rahul",
-      "mode":["online","offline"],
+ 
       "image": "/images/jane.jpg",
       "experience": 3,
       "skills": ["HTML", "CSS", "JavaScript", "React js", "Next js","Testing"],
@@ -24,7 +23,7 @@
     {
       "id": "2",
       "name": " Uttam",
-      "mode":["online","offline"],
+   
       "image": "/images/jane.jpg",
       "experience": 2,
       "skills": ["HTML", "CSS", "JavaScript", "React js", "Next js","Testing"],
@@ -35,7 +34,7 @@
     {
       "id": "2",
       "name": "Unnath",
-      "mode":["online","offline"],
+     
       "image": "/images/jane.jpg",
       "experience": 2,
       "skills": ["HTML", "CSS", "JavaScript", "React js", "Next js","Testing"],
@@ -46,7 +45,7 @@
     {
       "id": "2",
       "name": " Vidwann",
-      "mode":["online","offline"],
+
       "image": "/images/jane.jpg",
       "experience": 3,
       "skills": ["Design", "UI/UX design","HTML", "CSS", "JavaScript"],

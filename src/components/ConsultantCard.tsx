@@ -5,7 +5,6 @@ import "./Consultant.css";
 type ConsultantProps = {
   id: string;
   name: string;
-  mode: string[];
   image: string;
   experience: number;
   skills: string[];
@@ -17,7 +16,6 @@ type ConsultantProps = {
 const ConsultantCard: React.FC<ConsultantProps> = ({
   id,
   name,
-  mode,
   image,
   experience,
   skills,
