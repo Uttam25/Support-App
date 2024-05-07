@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css'; // default styling
+import './Consultant.css';
 
 const CustomCalendar = ({ onDateChange }:any) => {
     const [value, onChange] = useState<any>(new Date());
