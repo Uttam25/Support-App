@@ -6,7 +6,7 @@ const CustomCalendar = ({ onDateChange }:any) => {
     const [value, onChange] = useState<any>(new Date());
 
     return (
-        <div>
+        <div className='calender-card'>
             <Calendar
                 onChange={onChange}
                 value={value}

@@ -21,7 +21,7 @@ export const processPayment = async ({consultant, amount}:any) => {
       currency: orderData.currency,
       name: 'Consultation Fee',
       description: 'Payment for consultant services',
-      order_id: orderData.id,
+      order_id: orderData.id,//@ts-ignore
       handler: function (response) {
         // handle the payment success, post to a success API or similar
         alert('Payment successful');
@@ -38,7 +38,7 @@ export const processPayment = async ({consultant, amount}:any) => {
         color: '#3399cc'
       }
     };
-  
+  //@ts-ignore
     const paymentObject = new window.Razorpay(options);
     paymentObject.open();
   }

@@ -2,21 +2,56 @@
     {
       "id": "1",
       "name": "sumanth",
+      "mode": ["online","offline"],
       "image": "/images/john.jpg",
       "experience": 5,
-      "skills": ["React js", "Next js"],
+      "skills": ["HTML", "CSS", "JavaScript", "React js", "Next js","Testing"],
       "rating": 4.5,
-      "email": "sumanth@gmail.com",
-      "pricing": 300
+      "email": "sumanth1418@gmail.com",
+      "pricing": 600
     },
     {
       "id": "2",
-      "name": "Jane Smith",
+      "name": "Rahul",
+      "mode":["online","offline"],
       "image": "/images/jane.jpg",
       "experience": 3,
-      "skills": ["Leadership", "Time Management"],
+      "skills": ["HTML", "CSS", "JavaScript", "React js", "Next js","Testing"],
       "rating": 4.8,
-      "email": "jane@example.com",
+      "email": "rahul@gmail.com",
+      "pricing": 500
+    },
+    {
+      "id": "2",
+      "name": " Uttam",
+      "mode":["online","offline"],
+      "image": "/images/jane.jpg",
+      "experience": 2,
+      "skills": ["HTML", "CSS", "JavaScript", "React js", "Next js","Testing"],
+      "rating": 4.8,
+      "email": "uttamm2535@gmail.com",
+      "pricing": 250
+    },
+    {
+      "id": "2",
+      "name": "Unnath",
+      "mode":["online","offline"],
+      "image": "/images/jane.jpg",
+      "experience": 2,
+      "skills": ["HTML", "CSS", "JavaScript", "React js", "Next js","Testing"],
+      "rating": 4.8,
+      "email": "unnathm456@gmail.com",
+      "pricing": 250
+    },
+    {
+      "id": "2",
+      "name": " Vidwann",
+      "mode":["online","offline"],
+      "image": "/images/jane.jpg",
+      "experience": 3,
+      "skills": ["Design", "UI/UX design","HTML", "CSS", "JavaScript"],
+      "rating": 4.8,
+      "email": "vidwann@gmail.com",
       "pricing": 250
     }
   ]
