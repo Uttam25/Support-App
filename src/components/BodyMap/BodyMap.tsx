@@ -5,7 +5,12 @@
 import React, { useState } from "react";
 import { GoogleMap, LoadScript, Polygon } from "@react-google-maps/api";
 
-const stateCoordinates = {
+type Coordinate = {
+  lat: number;
+  lng: number;
+};
+
+const stateCoordinates: Record<string, Coordinate[]> = {
   California: [
     { lat: 32.5121, lng: -117.3397 },
     { lat: 42.0126, lng: -114.1312 },
@@ -23,7 +28,7 @@ const BodyMap = () => {
   const [center, setCenter] = useState({ lat: 37.0902, lng: -95.7129 }); // Center of USA
   const [zoom, setZoom] = useState(4);
 
-  const handleStateClick = (coordinates) => {
+  const handleStateClick = (coordinates: Coordinate[]) => {
     // Calculate the center of the state
     const latitudes = coordinates.map((coord) => coord.lat);
     const longitudes = coordinates.map((coord) => coord.lng);
@@ -46,12 +51,13 @@ const BodyMap = () => {
             }}
             center={center}
             zoom={zoom}
-          ></GoogleMap>
+          >
+          </GoogleMap>
         </LoadScript>
       </div>
 
       <div className="flex flex-col">
-        <h1>bhjsn</h1>
+        <h1>State Map</h1>
       </div>
     </>
   );
