@@ -1,6 +1,8 @@
 import React from "react";
-import consultants from "./data/consultants.json";
-import ConsultantCard from "../components/ConsultantCard";
+import BodyMap from "../components/BodyMap/BodyMap";
+// import consultants from "./data/consultants.json";
+// import ConsultantCard from "../components/ConsultantCard";
+
 export interface Consultant {
   id: string;
   name: string;
@@ -13,8 +15,8 @@ export interface Consultant {
 }
 export default function Home() {
   return (
-    <div>
-      {consultants.map((consultant: Consultant) => (
+    <div className="m-5">
+      {/* {consultants.map((consultant: Consultant) => (
         <ConsultantCard
           key={consultant.id}
           id={consultant.id}
@@ -26,7 +28,10 @@ export default function Home() {
           email={consultant.email}
           pricing={consultant.pricing}
         />
-      ))}{" "}
+      ))}{" "} */}
+      <div className="flex flex-row">
+        <BodyMap />
+      </div>
     </div>
   );
 }

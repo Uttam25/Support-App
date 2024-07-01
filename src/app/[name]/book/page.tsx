@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import CustomCalendar from "@/src/components/CustomCalendar";
 import consultants from "../../data/consultants.json";
+import './page.css';
 
 type Consultant = {
   name: string;
@@ -57,7 +58,7 @@ const BookingPage: React.FC = () => {
   }
 
   return (
-    <div>
+    <div className="container">
       <h1>Book an Appointment with {consultant.name}</h1>
       <CustomCalendar onDateChange={setSelectedDate} />
       <select
@@ -105,7 +106,7 @@ const BookingPage: React.FC = () => {
         required
       />
       {totalCharge > 0 && (
-        <div>
+        <div className="charge-display">
           <p>
             Total Charge:{" "}
             {new Intl.NumberFormat("en-IN", {

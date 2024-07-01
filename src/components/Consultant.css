@@ -167,3 +167,49 @@
         padding: 10px; /* Larger touch targets */
     }
 }
+
+.calender-card {
+    max-width: 350px; /* Sets a max width for the calendar */
+    margin: 20px auto; /* Centers the calendar horizontally */
+    padding: 20px; /* Adds padding around the calendar */
+    background-color: #fff; /* Sets a white background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+    border-radius: 8px; /* Rounds the corners */
+}
+
+/* You might want to style the calendar itself if you are using a specific library */
+.react-calendar {
+    width: 100%; /* Ensures the calendar fills the container */
+    border: none; /* Removes any default border */
+    font-family: Arial, sans-serif;
+    background-color: #f2a3a3;
+     /* Ensures consistent font styling */
+}
+
+.react-calendar__tile {
+    max-height: 50px; /* Sets a max height for each day tile */
+    display: flex; /* Flexbox to center content */
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+}
+
+/* Hover effect for day tiles, if your calendar library allows it */
+.react-calendar__tile:hover {
+    background-color: #e3f2fd; /* A light blue background on hover */
+    cursor: pointer; /* Indicates the tile is clickable */
+}
+
+@media (max-width: 600px) {
+    .calender-card {
+        max-width: 100%; /* Allows the calendar to use the full width on small screens */
+        margin: 10px; /* Reduces margin to better fit smaller screens */
+        padding: 10px; /* Reduces padding */
+    }
+
+    /* Adjust font sizes and other properties as necessary for smaller screens */
+    .react-calendar__tile {
+        font-size: 14px; /* Smaller font size for better fit */
+    }
+}
+
+
